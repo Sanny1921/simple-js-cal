@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sentence checker</title>
+</head>
+<style>
+    body{
+        background-color:black;
+    }
+</style>
+<body>
+    <script>
+        //1st assignment\\
+
+        /* let b= prompt("enter space separated integers")
+        let k= b.split(" ").map(Number)
+        let summ=0
+        for (let i = 0;i<k.length;i++){
+            summ+=k[i]
+        }
+        alert(`sum of integers inside array: ${summ}`) */
+
+
+
+        //2nd assignment\\
+
+        let num1 = prompt("Enter first number: ")
+        let op = prompt("Enter operation you want to perform (+,-,x,/):")
+        let num2 = prompt("Enter second number: ")
+        num1=Number(num1)
+        num2=Number(num2)
+        if (op=="-"){
+            alert(`result: ${num1-num2}`)
+        }
+        else if (op=="+"){
+            alert(`result: ${num1+num2}`)
+        }
+        else if (op=="/"){
+            alert(`result: ${num1/num2}`)
+        }
+        else if (op=="x" || op=="*"){
+            alert(`result: ${num1*num2}`)
+        }
+        else{
+            alert ("invalid operation")
+        }
+
+
+
+
+        //3rd assignment\\
+
+        /*let num11= Number(prompt("Enter first number: "))
+        let num12= Number(prompt("Enter second number: "))
+        alert(`sum of ${num11} and ${num12} is ${num11+num12}`)*/
+    </script>
+</body>
+</html>
